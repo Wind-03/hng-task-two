@@ -1,0 +1,44 @@
+.Card{
+    display:grid;
+        grid-template-columns:280px;
+        grid-template-rows: 350px 30px 20px 20px 50px;
+        grid-template-areas: 
+        "image"
+        "title"
+        "release"
+        "test"
+        "button";
+        row-gap:20px;
+        img{
+            grid-area: image;
+        }
+        h3{
+            grid-area: title;
+            justify-self:center;
+        }
+        .p{
+            grid-area:release;
+            justify-self:center;
+        }
+        .test{
+            grid-area:test;
+        }
+        button{
+            padding:6px 12px;
+            grid-area: button;
+            margin:5px 0px;
+            border-radius: 6px;
+            background: var(--rose-700, #BE123C);
+            border:none;
+            color:#fff;
+            font-weight:700;
+            font-size:14px;
+            text-transform: uppercase;
+            width:200px;
+            justify-self: center;
+            .decor{
+                text-decoration:none;
+                color:#fff;
+            }
+        }
+}

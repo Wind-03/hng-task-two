@@ -1,0 +1,93 @@
+.Header{
+    background-image: url("../assets/Poster.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:600px;
+    color:#fff;
+    .navbar{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top:15px;
+        .item-one, .menu{
+            display:flex;
+            gap:20px;
+        }
+        .item-one{
+            margin-left:95px;
+            align-items: center;
+            p{
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 24px;
+            }
+        }
+        .menu{
+            margin-right:104px;
+            .ellipse{
+                width: 36px;
+                height: 36px;
+                border-radius: 50%;
+                background-color: var(--rose-700, #BE123C);
+                border:none;
+            }
+        }
+        .search-bar{
+            input{
+                width: 525px;
+                padding: 8px 10px;
+                border-radius: 6px;
+                background-color: transparent;
+                color:#fff;
+                border: 2px solid var(--gray-300, #D1D5DB);
+                &::placeholder{
+                    color:#fff;
+                }
+            }
+            .search{
+                border:none;
+                background-color: transparent;
+                position:relative;
+                right:28px;
+                top:2px;
+            }
+        }
+    }
+    .info{
+        margin-left:98px;
+        margin-top:100px;
+        h1{
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 64px;
+            width:404px;
+            line-height: 56px;
+        }
+        div{
+            display:inline-flex;
+            padding-right:70px;
+            gap:10px;
+            width:160px;
+        }
+        p{
+            width:404px;
+        }
+        .watch{
+            display:flex;
+            align-items: center;
+            gap:10px;
+            padding:6px 12px;
+            margin-top:5px;
+            border-radius: 6px;
+            background: var(--rose-700, #BE123C);
+            border:none;
+            color:#fff;
+            font-weight:700;
+            font-size:14px;
+            text-transform: uppercase;
+        }
+    }
+}

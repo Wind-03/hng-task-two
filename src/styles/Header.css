@@ -1,0 +1,94 @@
+.Header {
+  background-image: url("../assets/Poster.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  color: #fff;
+}
+.Header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+}
+.Header .navbar .item-one, .Header .navbar .menu {
+  display: flex;
+  gap: 20px;
+}
+.Header .navbar .item-one {
+  margin-left: 95px;
+  align-items: center;
+}
+.Header .navbar .item-one p {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+.Header .navbar .menu {
+  margin-right: 104px;
+}
+.Header .navbar .menu .ellipse {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: var(--rose-700, #BE123C);
+  border: none;
+}
+.Header .navbar .search-bar input {
+  width: 525px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid var(--gray-300, #D1D5DB);
+}
+.Header .navbar .search-bar input::-moz-placeholder {
+  color: #fff;
+}
+.Header .navbar .search-bar input::placeholder {
+  color: #fff;
+}
+.Header .navbar .search-bar .search {
+  border: none;
+  background-color: transparent;
+  position: relative;
+  right: 28px;
+  top: 2px;
+}
+.Header .info {
+  margin-left: 98px;
+  margin-top: 100px;
+}
+.Header .info h1 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  width: 404px;
+  line-height: 56px;
+}
+.Header .info div {
+  display: inline-flex;
+  padding-right: 70px;
+  gap: 10px;
+  width: 160px;
+}
+.Header .info p {
+  width: 404px;
+}
+.Header .info .watch {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 12px;
+  margin-top: 5px;
+  border-radius: 6px;
+  background: var(--rose-700, #BE123C);
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+}/*# sourceMappingURL=Header.css.map */

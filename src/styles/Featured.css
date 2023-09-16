@@ -1,0 +1,12 @@
+.featured {
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+.featured .movie-list {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 87%;
+  gap: 80px;
+}/*# sourceMappingURL=Featured.css.map */

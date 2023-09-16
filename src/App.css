@@ -1,0 +1,17 @@
+.stretch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px;
+  width: 87%;
+  margin: 0 auto;
+}
+
+.movies-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 89%;
+  margin: 0 auto;
+  gap: 80px;
+}/*# sourceMappingURL=App.css.map */
